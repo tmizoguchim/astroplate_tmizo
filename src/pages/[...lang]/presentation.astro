@@ -14,10 +14,10 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params;
-const about = await getListPage("about", lang as keyof ContentEntryMap);
+const presentation = await getListPage("presentation", lang as keyof ContentEntryMap);
 
-const { Content } = await about[0].render();
-const { title, description, meta_title, image } = about[0].data;
+const { Content } = await presentation[0].render();
+const { title, description, meta_title, image } = presentation[0].data;
 ---
 
 <Base
@@ -43,7 +43,11 @@ const { title, description, meta_title, image } = about[0].data;
             )
           }
           <h2 set:html={markdownify(title)} class="h3 mb-6" />
+          <div class="row justify-left">
+          <div class="text-left">
           <div class="content">
+          </div>
+          </div>
             <Content />
           </div>
         </div>

@@ -1,24 +1,32 @@
 {
   "main": [
-    { "name": "Accueil", "url": "/" },
-    { "name": "À propos", "url": "/about" },
-    { "name": "Éléments", "url": "/elements" },
+    { "name": "Top", "url": "/" },
+    { "name": "Research", "url": "/about" },
     {
-      "name": "Pages",
+      "name": "Team",
       "url": "",
       "hasChildren": true,
       "children": [
-        { "name": "Contact", "url": "/contact" },
-        { "name": "Blog", "url": "/blog" },
-        { "name": "Auteurs", "url": "/authors" },
-        { "name": "Catégories", "url": "/categories" },
-        { "name": "Étiquettes", "url": "/tags" },
-        { "name": "Page 404", "url": "/404" }
+        { "name": "Member", "url": "/member" },
+        { "name": "Alumni", "url": "/alumni" }
       ]
-    }
+    },
+    {
+      "name": "Achievements",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        { "name": "Mauscripts", "url": "/manuscript" },
+        { "name": "Invited", "url": "/invited" },
+        { "name": "Presentations", "url": "/presentation" },
+        { "name": "Books", "url": "/book" },
+        { "name": "Awards", "url": "/award" }
+      ]
+    },
+    { "name": "Environment", "url": "/elements" }
   ],
   "footer": [
-    { "name": "Éléments", "url": "/elements" },
-    { "name": "Politique de confidentialité", "url": "/privacy-policy" }
+    { "name": "", "url": "/elements" },
+    { "name": "", "url": "/privacy-policy" }
   ]
 }

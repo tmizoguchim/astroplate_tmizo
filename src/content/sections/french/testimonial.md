@@ -1,5 +1,5 @@
 ---
-enable: true
+enable: false
 title: "Ce que disent les utilisateurs d'Astroplate"
 description: "Ne vous contentez pas de nous croire sur parole - écoutez certains de nos utilisateurs satisfaits ! Consultez quelques-uns de nos témoignages ci-dessous pour voir ce que les autres disent à propos d'Astroplate."
 

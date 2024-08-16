@@ -71,6 +71,17 @@ const aboutCollection = defineCollection({
   }),
 });
 
+// Member collection schema
+const memberCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    image: z.string(),
+    draft: z.boolean().optional(),
+  }),
+});
+
 // Banner schema
 const bannerSchema = z.object({
   title: z.string(),
@@ -141,4 +152,5 @@ export const collections = {
   content: contentCollection,
   testimonials: testimonialsSchema,
   callToAction: callToActionSchema,
+  member: memberCollection,
 };
