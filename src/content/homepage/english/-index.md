@@ -36,7 +36,7 @@ features:
     image: "/images/content-3.png"
     content: "Research Achievements"
     bulletpoints:
-      - ""The students in our group have transferred universities and laboratories upon advancing to graduate school. While transferring to a new group and new university is very challenging, there are many*10 more things to gain from its experience."
+      - "The students in our group have transferred universities and laboratories upon advancing to graduate school. While transferring to a new group and new university is very challenging, there are many*10 more things to gain from its experience."
       - "The students joined to our group start new research themes after entering graduate school, and even within a limited time, they present at academic conferences, and become the first authors of academic manuscript that leave a mark in the history of Science. You can see our achievements, including conference presentations and awards, from the Achievements section above menu."
     button:
       enable: true
